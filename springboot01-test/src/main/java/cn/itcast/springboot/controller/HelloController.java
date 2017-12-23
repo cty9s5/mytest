@@ -30,7 +30,7 @@ public class HelloController {
 	// 响应数据为静态html页面： http://localhost:8080/user
 	@GetMapping("/user")
 	public String user(){
-		System.out.println("...............");
+		System.out.println("进来了..........");
 		return "/html/user.html";
 	}
 
