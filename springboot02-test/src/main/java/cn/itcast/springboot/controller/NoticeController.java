@@ -24,7 +24,7 @@ public class NoticeController {
 	@GetMapping("/findAll")
 	@ResponseBody
 	public List<Notice> findAll(){
-		System.out.println(".................");
+		System.out.println("1111111111111111111111");
 		return noticeService.findAll();
 	}
 	
